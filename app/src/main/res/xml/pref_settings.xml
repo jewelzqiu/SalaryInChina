@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="375000"
+        android:inputType="numberDecimal"
+        android:key="@string/key_salary"
+        android:title="@string/salary" />
+    <EditTextPreference
+        android:defaultValue="1500000"
+        android:inputType="numberDecimal"
+        android:key="@string/key_annual_bonus"
+        android:title="@string/annual_bonus" />
+    <EditTextPreference
+        android:defaultValue="8"
+        android:inputType="numberDecimal"
+        android:key="@string/key_housing_fund"
+        android:title="@string/housing_fund" />
+
+</PreferenceScreen>

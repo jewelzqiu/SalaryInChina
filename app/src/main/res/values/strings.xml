@@ -4,5 +4,15 @@
     <string name="app_name">Salary in China</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    
+    <!--settings-->
+    <string name="key_salary">salary</string>
+    <string name="salary">月薪（日元）</string>
+    <string name="key_annual_bonus">annual_bonus</string>
+    <string name="annual_bonus">年终奖（日元）</string>
+    <string name="key_housing_fund">housing_fund</string>
+    <string name="housing_fund">住房公积金</string>
 
 </resources>

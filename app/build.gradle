@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.0.2"
 
     defaultConfig {
-        applicationId "salaryinchina.jewelzqiu.com.salaryinchina"
+        applicationId "com.jewelzqiu.salaryinchina"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 1
