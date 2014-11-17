@@ -92,6 +92,12 @@ public class MainActivity extends ActionBarActivity {
                         * mRate;
         double bonus = Double.parseDouble(
                 preferences.getString(getString(R.string.key_annual_bonus), "1500000")) * mRate;
+        builder.append("税前月薪：\t");
+        builder.append(String.format("%.2f", salary));
+        builder.append('\n');
+        builder.append("税前奖金：\t");
+        builder.append(String.format("%.2f", bonus));
+        builder.append('\n');
         double housingFundRate =
                 Double.parseDouble(preferences.getString(getString(R.string.key_housing_fund), "8"))
                         / 100;
